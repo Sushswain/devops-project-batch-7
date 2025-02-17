@@ -1,0 +1,59 @@
+    1  git --version
+    2  git
+    3  ls
+    4  mkdir git
+    5  mkdir git-tutorial
+    6  ls
+    7  cd git-tutorial/
+    8  mkdir devops-project-batch-7
+    9  ls
+   10  mkdir devops-practice-project
+   11  ls
+   12  cd devops-project-batch-7/
+   13  git init
+   14  ls
+   15  ls -a
+   16  cd .git
+   17  ls
+   18  cd ..
+   19  cd devops-practice-project/
+   20  ls
+   21  ls -a
+   22  cd ..
+   23  cd devops-project-batch-7/
+   24  ls -a
+   25  touch laila.txt
+   26  ls
+   27  touch majnu.txt
+   28  ls
+   29  ls -l
+   30  ls
+   31  git status
+   32  rm laila.txt
+   33  ls
+   34  touch laila.txt
+   35  git status
+   36  ls
+   37  git add laila.txt
+   38  git stage
+   39  git status
+   40  git add majnu.txt
+   41  git status
+   42  git rm --cached laila.txt 
+   43  ls
+   44  git status
+   45  git add laila.txt 
+   46  git status
+   47  git comit -m "feat: added laila majnu"
+   48  git commit -m "feat: added laila majnu"
+   49  git status
+   50  git log
+   51  ls
+   52  rm majnu.txt
+   53  ls
+   54  git status
+   55  git restore majnu.txt
+   56  ls
+   57  clear
+   58  history
+   59  history> aal_commands.txt
